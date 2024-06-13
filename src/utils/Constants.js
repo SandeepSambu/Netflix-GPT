@@ -6,3 +6,22 @@ export const BACKGROUND_IMG =
 
 export const USER_AVATAR =
   "https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png?20201013161117";
+
+export const options = {
+  method: "GET",
+  headers: {
+    accept: "application/json",
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4NGY1YjJhMTI4YjUxNmNjMWZiYmQ5ZTQ4Njg4MzI4OCIsInN1YiI6IjY2Njk2NjhlNjYxZGU5MWRlNGJlYjE4MiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.LtYw4TCieJr8OGJ1mRWQZvHPr17Q2yvvwbDL3_qvGvg",
+  },
+};
+
+export const MOVIESLIST =
+  "https://api.themoviedb.org/3/movie/now_playing?page=1";
+
+export const PLAY_LOGO =
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEX7vUduNbSs2RMulFjUMNDFjMGOQyvobTQ&s";
+
+export const TRAILER_URL = "https://api.themoviedb.org/3/movie/";
+
+export const YOUTUBE_TRAILERVIDEO = "https://www.youtube.com/embed/";

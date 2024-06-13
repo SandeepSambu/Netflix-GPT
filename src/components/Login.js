@@ -90,8 +90,6 @@ const Login = () => {
     }
   };
 
-  console.log(auth.currentUser);
-
   return (
     <div>
       <Header />
