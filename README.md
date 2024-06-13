@@ -28,6 +28,11 @@
     - Update store with Trailer Video data
     - Embedded the Youtube video and made it autoplay and mute
     - Tailwind css to make main container look similar to Netflix
+    - Build Secondary Component
+    - Build Movie List
+    - Build Movie Card
+    - Made the Ui look cool with tailwind CSS
+    - usePopular Movies custom hook
 
 # Features
 

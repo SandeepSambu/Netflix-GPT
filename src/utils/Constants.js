@@ -16,8 +16,17 @@ export const options = {
   },
 };
 
-export const MOVIESLIST =
+export const NOWPLAYING_MOVIESLIST =
   "https://api.themoviedb.org/3/movie/now_playing?page=1";
+
+export const POPULAR_MOVIESLIST =
+  "https://api.themoviedb.org/3/movie/popular?page=1";
+
+export const TOPRATED_MOVIESLIST =
+  "https://api.themoviedb.org/3/movie/top_rated?page=1";
+
+export const UPCOMING_MOVIESLIST =
+  "https://api.themoviedb.org/3/movie/upcoming?page=1";
 
 export const PLAY_LOGO =
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEX7vUduNbSs2RMulFjUMNDFjMGOQyvobTQ&s";
@@ -25,3 +34,5 @@ export const PLAY_LOGO =
 export const TRAILER_URL = "https://api.themoviedb.org/3/movie/";
 
 export const YOUTUBE_TRAILERVIDEO = "https://www.youtube.com/embed/";
+
+export const MOVIE_POSTER = "https://image.tmdb.org/t/p/w780";
