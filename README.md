@@ -33,6 +33,9 @@
     - Build Movie Card
     - Made the Ui look cool with tailwind CSS
     - usePopular Movies custom hook
+    - GPTSearch page
+    - GPT Search Bar
+    - Multi-Language feature in the App
 
 # Features
 
