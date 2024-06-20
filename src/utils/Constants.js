@@ -36,3 +36,10 @@ export const TRAILER_URL = "https://api.themoviedb.org/3/movie/";
 export const YOUTUBE_TRAILERVIDEO = "https://www.youtube.com/embed/";
 
 export const MOVIE_POSTER = "https://image.tmdb.org/t/p/w780";
+
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "en", name: "English" },
+  { identifier: "telugu", name: "Telugu" },
+  { identifier: "hindi", name: "Hindi" },
+  { identifier: "spanish", name: "Spanish" },
+];
