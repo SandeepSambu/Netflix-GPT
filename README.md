@@ -36,6 +36,8 @@
     - GPTSearch page
     - GPT Search Bar
     - Multi-Language feature in the App
+    - Configured OpenAi api to our App
+    - Gpt Search Movie Suggessions
 
 # Features
 

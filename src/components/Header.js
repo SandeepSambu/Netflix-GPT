@@ -12,10 +12,10 @@ const Header = () => {
   const dispatch = useDispatch();
   const user = useSelector((store) => store.user);
 
-  const gptSearchPageView = useSelector((store) => store.gpt);
+  const { gptSearchPage } = useSelector((store) => store.gpt);
 
   const handleSearchPage = () => {
-    dispatch(gptSearch(gptSearchPageView));
+    dispatch(gptSearch(gptSearchPage));
   };
 
   const handleLanguageChange = (e) => {
@@ -35,7 +35,6 @@ const Header = () => {
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
-        // console.log(auth.currentUser);
         const { uid, email, displayName, photoURL } = user;
         dispatch(
           addUser({
@@ -75,7 +74,7 @@ const Header = () => {
             className="text-white bg-blue-600 mx-3 my-5 px-2 rounded-md"
             onClick={handleSearchPage}
           >
-            GPT Search
+            {gptSearchPage ? "Homepage" : "GPT Search"}
           </button>
           <img className="w-10 h-10 my-5" src={user.photoURL} alt="imgicon" />
           <button className="text-white font-bold m-2" onClick={handleSignOut}>
