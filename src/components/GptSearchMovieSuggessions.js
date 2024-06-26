@@ -17,7 +17,7 @@ const GptSearchMovieSuggessions = () => {
         (movie) =>
           movie && (
             <MovieList
-              key={movie.title}
+              key={movie[0].title}
               title={movie[0].title}
               movies={movie}
             />

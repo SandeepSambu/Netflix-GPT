@@ -1,7 +1,7 @@
 import React from "react";
 import { MOVIE_POSTER } from "../utils/Constants";
 
-const MovieCard = ({ posterPath }) => {
+const MovieCard = ({ posterPath, movie }) => {
   return (
     <div className="w-48 px-1">
       <img
